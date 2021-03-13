@@ -1,0 +1,152 @@
+.nav_div{
+    background-color: #f9f9f9;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: space-between ;
+}
+.nav_text{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#5d6d97;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.nav_buttons{
+    margin-right: 40px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+.nav_button_calculate{
+    background-color: rgba(255, 160, 160, 0.867);
+    width: 120px;
+    transition: 0.2s;
+}
+.nav_button_save{
+    background-color: rgba(170, 255, 170, 0.867);
+    width: 80px;
+    transition: 0.2s;
+}
+.nav_button_save:hover{
+    background-color:rgba(106, 161, 106, 0.867);
+}
+.nav_button_calculate:hover{
+    background-color: rgba(134, 84, 84, 0.867);
+}
+
+.content{
+    background-color:rgb(238, 238, 238);
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.144);
+    margin-bottom: 2%;
+
+}
+.content_addform{
+    display: flex;
+    justify-content: space-between;
+}
+.content_addform_text{
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: lighter;
+    color:#5d6d97;
+}
+input{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color:gray;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 110px;
+    margin-left: 10px;
+    margin-right: 30px;
+    background-color: #ddd;
+    border-radius: 50px;
+    outline: none;
+    border-style: none;
+}
+
+.content_addform_button{
+    color:rgb(247, 247, 247);
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    background-color:rgb(136, 196, 245);
+}
+
+.content_addform_button:hover{
+    background-color:rgb(179, 219, 255);
+}
+
+.content_addform_input{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+}
+li{
+    text-align: right;
+    margin-right: 5px;
+    list-style:none;
+}
+
+thead{
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    color:rgb(65, 65, 65);
+    padding-bottom: 10px;
+}
+tbody{
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color:rgb(126, 126, 126);
+}
+td{
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+    padding: 20px;
+}
+.content_table{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.content_table_titles{
+    background-color: rgb(136, 196, 245);   
+}
+
+.content_addform_invalidDate{
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color:#e37c7c;
+}
