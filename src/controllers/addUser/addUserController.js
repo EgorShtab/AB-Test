@@ -1,3 +1,5 @@
+import {CreateUser} from '../addUser/userClass'
+
 let i=0;
 
 function GetDate(){
@@ -34,6 +36,7 @@ function AddUserC(registrationDate, lastVisitDate){
         let registrationDate=document.getElementById("registrationDate").value;
         let lastVisitDate=document.getElementById("lastActivity").value;
         AppendUser(registrationDate, lastVisitDate);
+        CreateUser(registrationDate, lastVisitDate, i);
     }
     else{
         invalidMessage.innerHTML="You have entered invalid date. Please try again!";
@@ -59,5 +62,6 @@ function AppendUser(registrationDate, lastVisitDate){
     temp.append(newUser);
     i++;
 }
+
 
 export default AddUserC;
